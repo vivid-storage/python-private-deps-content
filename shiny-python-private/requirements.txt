@@ -1,0 +1,5 @@
+shiny
+pandas
+numpy
+matplotlib
+git+https://github.com/vivid-storage/pythonprivatepackage.git

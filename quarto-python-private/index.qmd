@@ -1,0 +1,29 @@
+---
+title: "Data Analysis with Custom Package"
+author: "Your Name"
+date: "`r Sys.Date()`"
+format: 
+  html:
+    code-fold: false
+    toc: true
+jupyter: python3
+---
+
+# Introduction
+
+This document demonstrates the use of our custom Python package for data analysis and visualization.
+
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import plotly.express as px
+import plotly.graph_objects as go
+from my_custom_package import DataProcessor, generate_sample_data, format_number
+```
+```{python}
+# Generate sample data
+data = generate_sample_data(500)
+print(f"Generated {len(data)} rows of sample data")
+data.head()
+```
